@@ -905,6 +905,7 @@ list-style: circle;
   border-radius: 50%;
   background: radial-gradient(50% 50% at 50% 50%, rgba(234, 234, 234, 1) 0%, rgba(143, 215, 168, 1)100%);
   filter: blur(70px);
+  right: 220px;
   z-index: -1;
 }
 .circle2 {
@@ -914,6 +915,7 @@ list-style: circle;
   background: radial-gradient(50% 50% at 50% 50%, rgba(234, 234, 234, 1) 0%, #5C3DB5 100%);
   filter: blur(100px);
   z-index: 0;
+  right: 220px;
 }
 
 .circle1 {
@@ -943,6 +945,7 @@ list-style: circle;
     background: radial-gradient(50% 50% at 50% 50%, rgba(234, 234, 234, 1) 0%, #5C3DB5 100%);
   filter: blur(100px);
   z-index: -1;
+  right: 250px;
   margin-top: 550px;
 }
 .circle6{
@@ -953,7 +956,7 @@ list-style: circle;
   background: radial-gradient(50% 50% at 50% 50%, rgba(234, 234, 234, 1) 0%, rgba(143, 215, 168, 1)100%);
   filter: blur(120px);
   z-index: -1;
-  left: 790px;
+  left: 1150px;
   padding-top: 20px;
 }
 @media screen and (max-width: 1920px) and (min-width: 1260px) {
