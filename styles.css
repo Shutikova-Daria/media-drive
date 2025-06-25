@@ -1418,6 +1418,41 @@ list-style: circle;
     padding: 30px 10px;
   }
 }
+@media (max-width: 400px) {
+  .hero__text h1 {
+    font-size: 22px;
+  }
+  .hero__text .subtitle {
+    font-size: 1em;
+  }
+  .section-main h2 {
+    font-size: 24px;
+  }
+  .main-content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .carousel-nav {
+    display: none;
+  }
+  .card {
+    width: 90%;
+  }
+  .tag,
+  .tag1 {
+    font-size: 0.8em;
+    padding: 0.4em 0.8em;
+  }
+  .media-title .center, .media-title .right {
+    font-size: 28px;
+  }
+  .lesson-points li {
+    font-size: 14px;
+  }
+  .reviews-section {
+        padding-top: 200px;
+    }
+}
 
 @media (max-width: 380px) {
   .btn {
