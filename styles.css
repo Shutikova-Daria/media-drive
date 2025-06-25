@@ -1318,7 +1318,7 @@ list-style: circle;
     background: radial-gradient(50% 50% at 50% 50%, rgba(234, 234, 234, 1) 0%, rgba(143, 215, 168, 1) 100%);
     filter: blur(120px);
     z-index: -1;
-    left: 450px;
+    left: 200px;
     padding-top: 20px;
 }
 .traffic-block img {
@@ -1416,9 +1416,11 @@ list-style: circle;
   }
   .reviews-section {
     padding: 30px 10px;
+    
+    margin-top: 250px;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 414px) {
   .hero__text h1 {
     font-size: 22px;
   }
@@ -1450,7 +1452,7 @@ list-style: circle;
     font-size: 14px;
   }
   .reviews-section {
-        padding-top: 200px;
+    margin-top: 450px;
     }
 }
 
